@@ -1,6 +1,7 @@
 require 'rubygems'
 require 'sinatra'
+require 'erb'
 
 get '/' do
-    "Hello, dear tiny world."
+    erb :index
 end
